@@ -1,0 +1,96 @@
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Press Start 2P', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #29292a;
+  background: -webkit-linear-gradient(to right, #414345, #414345);
+  background: linear-gradient(to right, #414345, #414345);
+}
+
+@font-face {
+  font-family: 'retroicaregular';
+  src: url('retroica-webfont.woff2') format('woff2'),
+       url('retroica-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.raids{
+  position: sticky;
+  margin-top: 25px;
+  min-height: 100%;
+}
+
+.container-pagination{
+  text-align: center;
+}
+
+.container-pagination ul, li{
+  display: inline-block;
+}
+
+.card{
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FFFFFF;
+  font-family: 'retroicaregular';
+  src: url('retroica-webfont.woff2') format('woff2'),
+       url('retroica-webfont.woff') format('woff');
+}
+.card-header{
+    text-align: left;
+}
+.card-header b{
+    color: #109ccb;
+}
+
+.text{
+    color: #cf671c;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = =
+= = = =
+= = = = = = = = = = = = = = = = = = = = = = = =  = */
+
+footer{
+  width: 100%;
+}
+
+footer a:visited{
+  background-color: transparent;
+  color: #fff;
+}
+
+footer a:hover{
+    color: #9999999d;
+}
+
+.navbar-footer {
+  color: rgb(158, 158, 158);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4.5rem 0px;
+  min-height: calc(120px);
+  text-align: center;
+}
+
+.navbar-nav-footer {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
