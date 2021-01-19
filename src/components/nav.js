@@ -17,7 +17,7 @@ export default class Nav extends Component {
           <Link className="nav-item navbar-brand" to="/"><img src={Logo} style={logostyle} alt="TC" /></Link>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav mx-auto">
-              <Link className="nav-item nav-link font-weight-bold text-white" to="/probando">Raids</Link>
+              <Link className="nav-item nav-link font-weight-bold text-white" to="/raids">Raids</Link>
               <Link className="nav-item nav-link font-weight-bold text-white">Tank</Link>
               <Link className="nav-item nav-link font-weight-bold text-white">Healer</Link>
             </div>
