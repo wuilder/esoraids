@@ -24,7 +24,7 @@ export default class Paginas extends Component {
 
   async getRaidsData(pageNumber = 1, trialname = '', guildname = ''){
     this.setState( { loading: true }, () => {
-    axios.get(`http://localhost:4000/raids?trial=${trialname}&guild=${guildname}&page=${pageNumber}`)
+    axios.get(`https://eso-raids.herokuapp.com/raids?trial=${trialname}&guild=${guildname}&page=${pageNumber}`)
       .then(response => {
         //console.log(response)
         this.setState({ 
@@ -39,7 +39,7 @@ export default class Paginas extends Component {
   }
 
   async getTrialsData(){
-    const query = await axios.get(`http://localhost:4000/trials`);
+    const query = await axios.get(`https://eso-raids.herokuapp.com/trials`);
     this.setState({ trials: query.data });
   }
 
