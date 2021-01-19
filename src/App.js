@@ -3,11 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Nav from './components/nav'
 import Footer from './components/footer'
-//import Raids from './components/raids'
-import Rosters from './components/rosters'
-import Singin from './components/singin'
-import Singup from './components/singup'
-import Probando from './components/probando'
+import Raids from './components/raids'
 import Home from './components/home'
 
 function App() {
@@ -16,10 +12,7 @@ function App() {
       <Nav/>
       <main className="container-fluid">
         <Route path="/" exact component={Home} />
-        <Route path="/singin" exact component={Singin} />
-        <Route path="/singup" exact component={Singup} />
-        <Route path="/probando" exact component={Probando} />
-        <Route path="/rosters" exact component={Rosters} />
+        <Route path="/raids" exact component={Raids} />
       </main>
       <Footer/>
     </BrowserRouter>
